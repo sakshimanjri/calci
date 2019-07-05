@@ -36,5 +36,6 @@ TextView txt3;
         int n2=Integer.parseInt(txt2.getText().toString());
         int n3=n1+n2;
         txt3.setText(Integer.toString(n3));
+        //Fuck youAndroid
     }
 }
