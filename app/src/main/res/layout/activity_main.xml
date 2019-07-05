@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="400dp"
+        android:text="ADD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="126"
+        tools:layout_conversion_wrapWidth="231" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="155dp"
+        android:text="CALCULATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_conversion_wrapHeight="126"
+        tools:layout_conversion_wrapWidth="268"
+        android:onClick="onClick"/>
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="field1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="255" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="field2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="315" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="24dp"
+        android:text="result"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_conversion_wrapHeight="158"
+        tools:layout_conversion_wrapWidth="289" />
+
+</android.support.constraint.ConstraintLayout>
